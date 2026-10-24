@@ -36,7 +36,7 @@ export function About() {
             <div className="overflow-hidden rounded-[1.5rem] border border-[color:var(--border-soft)] bg-[radial-gradient(circle_at_top,_rgba(38,220,255,0.2),_rgba(14,31,46,0.94))] p-3">
               <Image
                 src={portfolio.profileImage}
-                alt={`${portfolio.name} profile illustration`}
+                alt={`Portrait of ${portfolio.name}`}
                 width={640}
                 height={760}
                 className="h-[460px] w-full rounded-[1.2rem] object-cover"

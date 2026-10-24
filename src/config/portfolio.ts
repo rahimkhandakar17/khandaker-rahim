@@ -10,13 +10,13 @@ export const portfolio: PortfolioConfig = {
   heroBadge: "Available for creative collaborations",
   bio:
     "I'm Khandaker Rahim, a business-minded digital professional who enjoys learning, creating, and building ideas into meaningful experiences. My work sits at the intersection of creativity, digital skills, freelancing, and entrepreneurial thinking, with a focus on practical value and polished execution.",
-  profileImage: "/images/profile-placeholder.svg",
+  profileImage: "/images/khandaker-rahim.png",
   websiteUrl: "https://your-domain.com",
   brandDescription:
     "Creative and business-minded digital professional focused on meaningful projects, smart growth, and polished online experiences.",
   contact: {
-    email: "",
-    phone: "",
+    email: "rahim.khandakar17@gmail.com",
+    phone: "01684437744",
     whatsapp: "",
     location: "",
   },

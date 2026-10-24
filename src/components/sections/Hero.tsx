@@ -80,7 +80,7 @@ export function Hero() {
                   <div className="aspect-[4/5] overflow-hidden rounded-[1.4rem] bg-[radial-gradient(circle_at_top,_rgba(96,230,255,0.33),_rgba(15,29,46,0.92)_52%,_rgba(2,10,18,0.98)_100%)]">
                     <Image
                       src={portfolio.profileImage}
-                      alt={`${portfolio.name} portrait placeholder`}
+                      alt={`Portrait of ${portfolio.name}`}
                       width={520}
                       height={640}
                       priority
@@ -90,15 +90,6 @@ export function Hero() {
                 </div>
               </div>
 
-              <div className="absolute -bottom-2 left-4 rounded-[1.25rem] border border-[color:var(--border-soft)] bg-[color:var(--card)]/85 p-4 shadow-[var(--shadow-soft)] backdrop-blur-xl">
-                <p className="text-[10px] uppercase tracking-[0.2em] text-[var(--muted)]">Focus</p>
-                <p className="mt-2 text-sm font-semibold text-[var(--foreground)]">Creative + Business Growth</p>
-              </div>
-
-              <div className="absolute -right-6 top-10 rounded-[1.25rem] border border-[color:var(--border-soft)] bg-[color:var(--card)]/85 p-4 shadow-[var(--shadow-soft)] backdrop-blur-xl">
-                <p className="text-[10px] uppercase tracking-[0.2em] text-[var(--muted)]">Interests</p>
-                <p className="mt-2 text-sm font-semibold text-[var(--foreground)]">Digital Skills • Creative Projects</p>
-              </div>
             </div>
           </div>
         </div>
