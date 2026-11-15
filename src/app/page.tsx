@@ -8,6 +8,7 @@ import { Footer } from "@/components/layout/Footer";
 import { Navbar } from "@/components/layout/Navbar";
 import { BackToTop } from "@/components/ui/BackToTop";
 import { ParticleBackground } from "@/components/ui/ParticleBackground";
+import { ScrollReveal } from "@/components/ui/ScrollReveal";
 
 export default function Home() {
   return (
@@ -16,13 +17,13 @@ export default function Home() {
       <Navbar />
       <main className="relative">
         <Hero />
-        <About />
-        <Skills />
-        <Education />
-        <Gallery />
-        <Contact />
+        <ScrollReveal><About /></ScrollReveal>
+        <ScrollReveal><Skills /></ScrollReveal>
+        <ScrollReveal><Education /></ScrollReveal>
+        <ScrollReveal><Gallery /></ScrollReveal>
+        <ScrollReveal><Contact /></ScrollReveal>
       </main>
-      <Footer />
+      <ScrollReveal><Footer /></ScrollReveal>
       <BackToTop />
     </>
   );
