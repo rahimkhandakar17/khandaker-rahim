@@ -18,7 +18,7 @@ export const portfolio: PortfolioConfig = {
     email: "rahim.khandakar17@gmail.com",
     phone: "01684437744",
     whatsapp: "",
-    location: "",
+    location: "Thanapara, Tangail Sadar, Tangail",
   },
   socialLinks: {
     facebook: "",
