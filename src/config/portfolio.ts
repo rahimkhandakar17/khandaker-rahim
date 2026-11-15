@@ -1,15 +1,15 @@
 import type { PortfolioConfig } from "@/types/portfolio";
 
 export const portfolio: PortfolioConfig = {
-  name: "Khandaker Rahim",
-  monogram: "KR",
+  name: "Md Abdur Rahim",
+  monogram: "MR",
   tagline: "Freelancer • Business-minded Creative • Digital Professional",
   heroHeadline: "Turning Ideas Into Digital Experiences.",
   heroIntro:
-    "I'm Khandaker Rahim, a business-minded freelancer passionate about digital skills, creative projects, and building meaningful opportunities.",
+    "I'm Md Abdur Rahim, a business-minded freelancer passionate about digital skills, creative projects, and building meaningful opportunities.",
   heroBadge: "Available for creative collaborations",
   bio:
-    "I'm Khandaker Rahim, a business-minded digital professional who enjoys learning, creating, and building ideas into meaningful experiences. My work sits at the intersection of creativity, digital skills, freelancing, and entrepreneurial thinking, with a focus on practical value and polished execution.",
+    "I'm Md Abdur Rahim, a business-minded digital professional who enjoys learning, creating, and building ideas into meaningful experiences. My work sits at the intersection of creativity, digital skills, freelancing, and entrepreneurial thinking, with a focus on practical value and polished execution.",
   profileImage: "/images/khandaker-rahim.png",
   websiteUrl: "https://your-domain.com",
   brandDescription:
@@ -119,8 +119,8 @@ export const portfolio: PortfolioConfig = {
     },
   ],
   seo: {
-    title: "Khandaker Rahim | Portfolio",
+    title: "Md Abdur Rahim | Portfolio",
     description:
-      "Premium portfolio website for Khandaker Rahim featuring creative work, skills, education, and contact information.",
+      "Premium portfolio website for Md Abdur Rahim featuring creative work, skills, education, and contact information.",
   },
 };
